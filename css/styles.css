@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-bold";
+  font-weight: 600;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* headings  */
+.bigger-heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem; /* bigger[first attraction because to make visual heirarchy for user. */
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* style for colored sections  */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* button styles */
+
+button a:link {
+  color: white;
+  text-decoration: none;
+}
+
+button a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* navigation bar  */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "montserrat-light";
+}
+
+/* title section  */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* download-buttom  */
+.download-button {
+  margin: 2% 3% 3% 0;
+  color: #fff;
+  background-color: #f37171;
+  border: 2px solid #fff;
+}
+
+.download-button:hover {
+  border: 2px solid #fff;
+  background-color: #ff8d8d;
+}
+
+.title-image {
+  position: absolute;
+  right: 25%;
+  width: 250px;
+  height: 250px;
+  border: 5px solid #fff;
+  border-radius: 100%;
+}
+
+/* skills section  */
+
+#skills {
+  position: relative;
+}
+
+.skill-box {
+  padding: 5%;
+}
+
+.skill-title {
+  font-size: 1.5rem;
+}
+
+/* icons  */
+
+.skill-box .icon img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 8px;
+  border-bottom: 5px solid transparent;
+}
+
+.skill-box .icon img:hover {
+  border-bottom: 5px solid #000;
+}
+
+/* testimonials */
+
+#testimonials {
+  background-color: #f7697e;
+}
+
+#testimonials img {
+  border-radius: 100%;
+  width: 20%;
+  margin: 20px;
+}
+
+.testimonials-heading {
+  text-align: left;
+  padding: 5% 2% 0;
+  font-size: 3.2rem;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.carousel-item .download-button {
+  margin: 3% 0 0;
+  background-color: transparent;
+  border: none;
+}
+
+.carousel button a {
+  color: #fdfbfb;
+}
+
+.carousel button a:hover {
+  text-decoration: underline;
+}
+
+/* about section */
+.about-info {
+  padding: 3% 0;
+}
+
+#about .row {
+  margin: 0;
+}
+
+.about-column {
+  padding: 2% 3%;
+}
+
+.about-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* footer section  */
+#footer .container-fluid {
+  padding: 1rem 0;
+}
+
+#footer .container-fluid > * {
+  padding: 5px 0;
+}
+
+.link-icons a {
+  font-size: 2.5rem;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.link-icons a:hover {
+  color: #efefef;
+}
+
+#footer .footer-text {
+  font-size: 0.9rem;
+}
+
+/* tab  */
+@media (max-width: 1065px) {
+  /* navbar brand font setting */
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  /* headings  */
+  .bigger-heading {
+    font-size: 2.5rem;
+  }
+
+  .section-heading {
+    font-size: 2rem;
+  }
+
+  .navbar {
+    padding: 0 0 2.5rem;
+  }
+
+  /* title section  */
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    height: 200px;
+    width: 200px;
+  }
+
+  /* testmonials section  */
+  .testimonials-heading {
+    font-size: 2rem;
+  }
+
+  .testimonial-text,
+  .about-text {
+    font-size: 1.5rem;
+  }
+
+  .carousel p {
+    font-size: 1rem;
+  }
+
+  .carousel em {
+    font-size: 0.9rem;
+  }
+
+  /* pricing */
+  .card {
+    border: 1px solid;
+  }
+
+  /* footer  */
+  .link-icons a {
+    font-size: 2rem;
+  }
+
+  #footer .footer-text {
+    font-size: 0.8rem;
+  }
+}
+/* mobile view  */
+@media screen and (max-width: 680px) {
+  .title-image {
+    position: static;
+    width: 150px;
+    height: 150px;
+  }
+}
