@@ -281,9 +281,28 @@ button a:visited {
 }
 /* mobile view  */
 @media screen and (max-width: 680px) {
+  /* navbar */
+  .navbar .navbar-brand {
+    margin-right: 0;
+  }
+
   .title-image {
     position: static;
     width: 150px;
     height: 150px;
+  }
+
+  /* testmonials section  */
+  .testimonials-heading {
+    font-size: 1.8rem;
+  }
+
+  /* headings  */
+  .bigger-heading {
+    font-size: 2rem;
+  }
+
+  .section-heading {
+    font-size: 1.8rem;
   }
 }
