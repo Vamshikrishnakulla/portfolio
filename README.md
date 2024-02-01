@@ -1,6 +1,6 @@
 # My Personal Website.
 This single page static website includes list of my skills, Projects, Educational background and my online profile's.\
-made responsive to look good on most of the devices.
+Made responsive to look good on most of the devices.
 
 ## `Projects`
 ### Get Through
